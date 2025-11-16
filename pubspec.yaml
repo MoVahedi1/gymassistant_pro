@@ -15,13 +15,9 @@ dependencies:
   hive_flutter: ^1.1.0
   path_provider: ^2.1.2
   dio: ^5.4.0
-  firebase_core: ^2.24.0
-  firebase_messaging: ^15.0.0
-  workmanager: ^0.6.0
-  flutter_background: ^1.1.0
-  mobile_scanner: ^5.0.0
-  intl: ^0.19.0
+  http: ^0.13.6
   shared_preferences: ^2.2.2
+  intl: ^0.19.0
   image_picker: ^1.0.4
   file_picker: ^6.1.1
   open_file: ^3.3.1
@@ -31,6 +27,11 @@ dependencies:
   cached_network_image: ^3.3.0
   qr_flutter: ^4.2.0
   badge: ^2.0.3
+  connectivity_plus: ^5.0.1
+  workmanager: ^0.6.0
+  mobile_scanner: ^5.0.0
+  firebase_core: ^2.24.0
+  firebase_messaging: ^15.0.0
 
 dev_dependencies:
   flutter_test:
@@ -44,3 +45,12 @@ flutter:
   assets:
     - assets/images/
     - assets/white_label.json
+  
+  fonts:
+    - family: Vazirmatn
+      fonts:
+        - asset: assets/fonts/Vazirmatn-Regular.ttf
+        - asset: assets/fonts/Vazirmatn-Bold.ttf
+          weight: 700
+
+  generate: true
