@@ -26,7 +26,7 @@ dependencies:
   pull_to_refresh: ^2.0.0
   cached_network_image: ^3.3.0
   qr_flutter: ^4.2.0
-  badge: ^2.0.3
+  # badge: ^2.0.3  # ❌ این خط را حذف کردیم
   connectivity_plus: ^5.0.1
   workmanager: ^0.6.0
   mobile_scanner: ^5.0.0
@@ -45,12 +45,5 @@ flutter:
   assets:
     - assets/images/
     - assets/white_label.json
-  
-  fonts:
-    - family: Vazirmatn
-      fonts:
-        - asset: assets/fonts/Vazirmatn-Regular.ttf
-        - asset: assets/fonts/Vazirmatn-Bold.ttf
-          weight: 700
 
   generate: true
