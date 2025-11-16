@@ -1,0 +1,14 @@
+name: Build APK
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+      - run: flutter pub get
+      - run: flutter build apk --release
+      - uses: actions/upload-artifact@v3
+        with:
+          name: app-apk
+          path: build/app/outputs/flutter-apk/

@@ -1,0 +1,46 @@
+name: gymassistant_pro
+description: GymAssistant Pro - Multi-tenant Offline-First Gym Management
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+  dio: ^5.4.0
+  firebase_core: ^2.24.0
+  firebase_messaging: ^15.0.0
+  workmanager: ^0.6.0
+  flutter_background: ^1.1.0
+  mobile_scanner: ^5.0.0
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.4
+  file_picker: ^6.1.1
+  open_file: ^3.3.1
+  permission_handler: ^11.0.1
+  flutter_local_notifications: ^16.3.0
+  pull_to_refresh: ^2.0.0
+  cached_network_image: ^3.3.0
+  qr_flutter: ^4.2.0
+  badge: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/white_label.json

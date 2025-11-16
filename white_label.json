@@ -1,0 +1,22 @@
+{
+    "tehran": {
+      "name": "باشگاه تهران",
+      "logo": "assets/images/tehran_logo.png",
+      "primary_color": "#FF6B35",
+      "secondary_color": "#F7C59F",
+      "capacity": 100,
+      "entry_qr": "GYM_TEHRAN_ENTRY_001",
+      "exit_qr": "GYM_TEHRAN_EXIT_001",
+      "subdomain": "tehran"
+    },
+    "shiraz": {
+      "name": "باشگاه شیراز",
+      "logo": "assets/images/shiraz_logo.png",
+      "primary_color": "#2A9D8F",
+      "secondary_color": "#E9C46A",
+      "capacity": 80,
+      "entry_qr": "GYM_SHIRAZ_ENTRY_001",
+      "exit_qr": "GYM_SHIRAZ_EXIT_001",
+      "subdomain": "shiraz"
+    }
+  }
